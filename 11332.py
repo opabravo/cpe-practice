@@ -1,18 +1,17 @@
-def check_sum_is_2(nums: list):
-    """Check if sum==2"""
-    return sum(nums) == 2
+"""
+Topic: 11332 Summing Digits
+Url: https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/11332.pdf
+"""
 
 
-def get_splitted_num(num:str):
-    return [int(x) for x in str(num)]
-
-
-def get_answer(num: str):
-    splitted_nums = get_splitted_num(num)
-    if sum(splitted_nums)>=10:
-        num = sum(splitted_nums)
-        return get_answer(num)
+def get_answer(num: str) -> int:
+    """Return the sum that is less than 10"""
+    splitted_nums = [int(x) for x in str(num)]
+    if sum(splitted_nums) >= 10:
+        new_num = sum(splitted_nums)
+        return get_answer(new_num)
     return sum(splitted_nums)
+
 
 if __name__ == "__main__":
     input_numbers = []
@@ -21,6 +20,6 @@ if __name__ == "__main__":
         if int(user_input) == 0:
             break
         input_numbers.append(user_input)
-    
+
     for num in input_numbers:
         print(get_answer(num))
