@@ -6,7 +6,6 @@ while 1:
     total = 0
     for i in range(1, 10**8):
         total += i
-        print(total - bad_count)
         if total > bad_count:
             print(total - bad_count, i)
             break
