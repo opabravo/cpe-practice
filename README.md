@@ -17,3 +17,4 @@ CPE practice in Python
 - [x] [The book thief](https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/12908.pdf) - [`12908`](12908.py)
 - [x] [The Counting Problem](https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/1640.pdf) - [`1640`](1640.py)
 - [x] [Coin Change](https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/674.pdf) - [`674`](674.py)
+- [x] [Pixel Art](https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/13171.pdf) - [`13171`](13171.py)
